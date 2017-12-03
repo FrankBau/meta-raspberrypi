@@ -42,7 +42,9 @@ IMAGE_INSTALL_append += " \
   git \
   subversion \
   wget \
+  rsync \
   e2fsprogs \
+  e2fsprogs-resize2fs \
   tzdata \
   watchdog \
   start-stop-daemon \
@@ -51,10 +53,11 @@ IMAGE_INSTALL_append += " \
 
 IMAGE_INSTALL_append += " v4l-utils"
 
-#IMAGE_INSTALL_append += " \
-#  opencv \
-#  ffmpeg \
-#"
+IMAGE_INSTALL_append += " \
+  packagegroup-qt5 \
+  opencv \
+  ffmpeg \
+"
 
 # web server stuff
 IMAGE_INSTALL_append += " \

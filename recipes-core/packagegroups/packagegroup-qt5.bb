@@ -7,21 +7,31 @@ inherit packagegroup
 COMPATIBLE_MACHINE = "^rpi$"
 
 RDEPENDS_${PN} = "\
-    qtbase \
-    qt3d \
-    qtcharts \
-    qtdeclarative \
-    qtdeclarative-plugins \
-    qtdeclarative-qmlplugins \
-    qtgraphicaleffects \
-    qtlocation-plugins \
-    qtmultimedia \
-    qtquickcontrols2 \
-    qtsensors-plugins \
-    qtserialbus \
-    qtsvg \
-    qtwebsockets-qmlplugins \
-    qtvirtualkeyboard \
-    qtxmlpatterns \
+	cinematicexperience \
+	qtsmarthome \
+	\
+	qtbase \
+	qtbase-plugins \
+	qtbase-tools \
+	qtmultimedia \
+	qtmultimedia-plugins \
+	qtmultimedia-qmlplugins \
+	qtsvg \
+	qtsvg-plugins \
+	qtsensors \
+	qtsensors-plugins \
+	qtsystems \
+	qtsystems-tools \
+	qtsystems-qmlplugins \
+	qt3d \
+	qtscript \
+	qtgraphicaleffects \
+	qtgraphicaleffects-qmlplugins \
+	qtconnectivity-qmlplugins \
+	qtlocation-plugins \
+	qtlocation-qmlplugins \
+	qtdeclarative \
+	qtdeclarative-qmlplugins \
+	qtvirtualkeyboard \
 "
 
